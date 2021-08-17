@@ -1,0 +1,52 @@
+.main{
+    background: #212429;
+}
+.social-menu {
+    padding: 2rem;
+    text-align: center;
+}
+.social-menu a {
+    margin: .5rem;
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.social-menu .fa {
+    color: #212429;
+    line-height: 50px;
+    transition: .5s;
+    font-size: 25px;
+}
+.social-menu .fa:hover {
+    color: #ffffff;
+}
+
+.social-menu a:nth-child(1):hover {
+    background-color: #dd4b39;
+}
+.social-menu a:nth-child(2):hover {
+    background-color: #0077B5;
+}
+.social-menu  a:nth-child(3):hover {
+    background-color: #333333;
+}
+.social-menu a:nth-child(4):hover {
+    background-color: #e4405f;
+}
+
+.line{
+    margin-top: 2rem;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+.copy-right{
+    color: white;
+    opacity: .7;
+}
